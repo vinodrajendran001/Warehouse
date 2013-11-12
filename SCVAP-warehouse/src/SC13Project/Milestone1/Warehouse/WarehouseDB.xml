@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:warehouse xmlns:tns="http://www.example.org/warehouse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/warehouse WarehouseDB.xsd ">
+  <tns:items>
+    <tns:item>
+      <tns:resourceID>tns:resourceID</tns:resourceID>
+      <tns:amount>0</tns:amount>
+    </tns:item>
+  </tns:items>
+  <tns:holdingRequests>
+    <tns:request>
+      <tns:requestID>tns:requestID</tns:requestID>
+      <tns:item>
+        <tns:resourceID>tns:resourceID</tns:resourceID>
+        <tns:amount>0</tns:amount>
+      </tns:item>
+    </tns:request>
+  </tns:holdingRequests>
+</tns:warehouse>
